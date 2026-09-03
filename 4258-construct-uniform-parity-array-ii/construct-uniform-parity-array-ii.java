@@ -11,7 +11,7 @@ class Solution {
         if (smallestOdd == Integer.MAX_VALUE)
             return true;
 
-        // Check whether every even number can become odd
+        // Check whether every even number can become odd₹
         for (int num : nums) {
             if (num % 2 == 0 && num <= smallestOdd)
                 return false;

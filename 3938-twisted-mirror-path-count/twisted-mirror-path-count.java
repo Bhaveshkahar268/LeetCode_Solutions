@@ -17,7 +17,6 @@ class Solution {
         }
         return down[down.length - 1];
     }
-    
 }
 
 // Synced seamlessly with LeetHub Pro
